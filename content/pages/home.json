@@ -8,6 +8,88 @@
   },
   "sections": [
     {
+      "id": "sec_14xk45kn9j",
+      "preset": "hero/full-bleed-photo@1",
+      "label": "Full-bleed photograph",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "narrow"
+      },
+      "style": {
+        "colorTheme": "dark",
+        "padding": {
+          "d": "3xl",
+          "m": "2xl"
+        },
+        "minHeight": {
+          "d": "88vh",
+          "m": "80svh"
+        },
+        "background": {
+          "type": "image",
+          "src": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=3840&q=80",
+          "focal": [
+            0.5,
+            0.55
+          ],
+          "overlay": {
+            "color": "#000000",
+            "opacity": 0.35
+          },
+          "parallax": true
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_7g15v1y05e",
+          "type": "heading",
+          "v": 1,
+          "fields": {
+            "text": "Five days of silence by the sea",
+            "level": "h1",
+            "size": "display",
+            "eyebrow": "Autumn retreat · 14–19 October",
+            "subheading": "Guided meditation, coastal walks and simple vegetarian food for twelve guests at a farmhouse on the cliffs."
+          },
+          "variant": "plain",
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        },
+        {
+          "id": "blk_82772phxp3",
+          "type": "button",
+          "v": 1,
+          "fields": {
+            "label": "Reserve your place",
+            "link": {
+              "type": "url",
+              "url": "/book"
+            },
+            "role": "primary",
+            "secondaryLabel": "What's included",
+            "secondaryLink": {
+              "type": "url",
+              "url": "/retreats"
+            }
+          },
+          "variant": "default",
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        }
+      ]
+    },
+    {
       "id": "sec_jkb292th3y",
       "preset": "hero/image-below@1",
       "label": "Headline over wide image",
@@ -52,7 +134,7 @@
           "type": "button",
           "v": 1,
           "fields": {
-            "label": "Join the commons",
+            "label": "Join commons",
             "link": {
               "type": "page",
               "page": "pg_767k25afbn"
