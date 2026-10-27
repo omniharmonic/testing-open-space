@@ -39,36 +39,12 @@
           ],
           "overlay": {
             "color": "#000000",
-            "opacity": 0.35
+            "opacity": 0.75
           },
           "parallax": true
         }
       },
       "blocks": [
-        {
-          "id": "blk_82772phxp3",
-          "type": "button",
-          "v": 1,
-          "fields": {
-            "label": "Reserve your place",
-            "link": {
-              "type": "page",
-              "page": "pg_n3zn43m479"
-            },
-            "role": "primary",
-            "secondaryLabel": "What's included",
-            "secondaryLink": {
-              "type": "url",
-              "url": "/retreats"
-            }
-          },
-          "variant": "default",
-          "style": {
-            "align": {
-              "d": "center"
-            }
-          }
-        },
         {
           "id": "blk_7g15v1y05e",
           "type": "heading",
@@ -176,7 +152,7 @@
           "v": 1,
           "fields": {
             "text": "Feeding the valley, together",
-            "level": "h1",
+            "level": "h2",
             "size": "display",
             "eyebrow": "A cooperative of 42 farms, kitchens and food banks",
             "subheading": "We share cold storage, delivery trucks and buying power so that small farms stay in business and good food reaches every town from Kingston to Beacon."

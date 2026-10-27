@@ -2,8 +2,8 @@
   "$schema": "https://schema.openspace.dev/v1/styles.json",
   "choices": {
     "palette": {
-      "brand": "oklch(0.5 0.1 140)",
-      "neutral": "cool",
+      "brand": "oklch(0.6 0.11 45)",
+      "neutral": "warm",
       "contrast": "standard",
       "source": "curated"
     },
