@@ -46,6 +46,30 @@
       },
       "blocks": [
         {
+          "id": "blk_82772phxp3",
+          "type": "button",
+          "v": 1,
+          "fields": {
+            "label": "Reserve your place",
+            "link": {
+              "type": "page",
+              "page": "pg_n3zn43m479"
+            },
+            "role": "primary",
+            "secondaryLabel": "What's included",
+            "secondaryLink": {
+              "type": "url",
+              "url": "/retreats"
+            }
+          },
+          "variant": "default",
+          "style": {
+            "align": {
+              "d": "center"
+            }
+          }
+        },
+        {
           "id": "blk_7g15v1y05e",
           "type": "heading",
           "v": 1,
@@ -57,30 +81,6 @@
             "subheading": "Guided meditation, coastal walks and simple vegetarian food for twelve guests at a farmhouse on the cliffs."
           },
           "variant": "plain",
-          "style": {
-            "align": {
-              "d": "center"
-            }
-          }
-        },
-        {
-          "id": "blk_82772phxp3",
-          "type": "button",
-          "v": 1,
-          "fields": {
-            "label": "Reserve your place",
-            "link": {
-              "type": "page",
-              "page": "pg_767k25afbn"
-            },
-            "role": "primary",
-            "secondaryLabel": "What's included",
-            "secondaryLink": {
-              "type": "url",
-              "url": "/retreats"
-            }
-          },
-          "variant": "default",
           "style": {
             "align": {
               "d": "center"
