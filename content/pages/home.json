@@ -34,8 +34,8 @@
           "type": "image",
           "src": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=3840&q=80",
           "focal": [
-            0.5,
-            0.55
+            0.429,
+            0.546
           ],
           "overlay": {
             "color": "#000000",
@@ -70,8 +70,8 @@
           "fields": {
             "label": "Reserve your place",
             "link": {
-              "type": "url",
-              "url": "/book"
+              "type": "page",
+              "page": "pg_767k25afbn"
             },
             "role": "primary",
             "secondaryLabel": "What's included",
@@ -84,6 +84,65 @@
           "style": {
             "align": {
               "d": "center"
+            }
+          }
+        },
+        {
+          "id": "blk_1ap1rbkyrt",
+          "type": "text",
+          "v": 1,
+          "fields": {
+            "content": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 2
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Death is an illusion"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Yas Qween!! "
+                    },
+                    {
+                      "type": "hardBreak"
+                    },
+                    {
+                      "type": "text",
+                      "text": "New here? Start with "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Foundations on = mornings",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " — no experience needed, and mats are on us."
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "variant": "default",
+          "style": {
+            "align": {
+              "d": "start"
             }
           }
         }
